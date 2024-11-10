@@ -1,0 +1,79 @@
+.graph-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 40px auto; /* Add some vertical margin */
+    font-family: 'Arial', sans-serif; /* Change the font for better readability */
+}
+
+h2 {
+    color: #333; /* Dark color for the heading */
+}
+
+textarea {
+    width: 100%;
+    padding: 10px; /* Add padding for better text input */
+    border: 1px solid #ccc; /* Light border color */
+    border-radius: 4px; /* Rounded corners */
+    resize: none; /* Disable resizing */
+}
+
+textarea:focus {
+    border-color: #007bff; /* Change border color on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Light shadow on focus */
+}
+
+.search-buttons {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between; /* Space out the buttons */
+}
+
+.search-buttons .btn {
+    flex: 1; /* Make buttons equal width */
+    margin-right: 10px; /* Add some margin between buttons */
+    padding: 10px; /* Increase padding for buttons */
+    font-weight: bold; /* Make button text bold */
+}
+
+.search-buttons .btn:last-child {
+    margin-right: 0; /* Remove margin from the last button */
+}
+
+.btn-success {
+    background-color: #28a745; /* Green background for BFS */
+    color: white; /* White text color */
+}
+
+.btn-success:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+.btn-warning {
+    background-color: #ffc107; /* Yellow background for DFS */
+    color: black; /* Black text color */
+}
+
+.btn-warning:hover {
+    background-color: #e0a800; /* Darker yellow on hover */
+}
+
+.graph-visualization {
+    margin-top: 20px;
+}
+
+.graph-visualization h3 {
+    text-align: center;
+    color: #555; /* Gray color for subheading */
+}
+
+.graph-visualization div {
+    border: 1px solid #ccc; /* Light border for graph area */
+    border-radius: 4px; /* Rounded corners */
+}
+
+.graph-visualization div:hover {
+    border-color: #007bff; /* Change border color on hover */
+}

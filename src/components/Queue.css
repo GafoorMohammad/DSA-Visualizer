@@ -1,0 +1,96 @@
+/* Queue container styling */
+.queue-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Input and button group styling */
+  .input-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .input-group input {
+    width: 60%;
+  }
+  
+  .input-group button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+  }
+  
+  /* Queue list styling */
+  .queue {
+    margin-top: 20px;
+  }
+  
+  .queue h3 {
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Queue items container (horizontal) */
+  .queue-items {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px; /* Space between queue items */
+    overflow-x: auto;
+    padding: 10px;
+  }
+  
+  /* Queue item styling */
+  .queue-item {
+    flex-shrink: 0;
+    width: 100px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+  }
+  
+  /* Hover effect on queue items */
+  .queue-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  }
+  .queue-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .queue-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .queue-item {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    min-width: 70px;
+    min-height: 40px;
+  }
+  
+  .btn {
+    min-width: 120px;
+  }
+  

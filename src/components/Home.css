@@ -1,0 +1,76 @@
+.home-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto; /* Center container */
+    overflow: hidden;
+}
+
+.title {
+    font-size: 2.5rem;
+    margin-top: 20px;
+    color: #4A4A4A; /* Darker color for better readability */
+}
+
+.lead {
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+    color: #555; /* Slightly darker text */
+    line-height: 1.6; /* Increased line height for better readability */
+}
+
+.info-section, .joke-section, .exploration-section {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px 0; /* Spacing between sections */
+}
+
+.info-section h2, 
+.joke-section h2, 
+.exploration-section h2 {
+    font-size: 1.75rem;
+    color: #343a40; /* Darker text for headings */
+}
+
+.joke {
+    background-color: #e9ecef;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer; /* Indicate clickable */
+}
+
+.joke:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.scrolling-jokes {
+    max-height: 200px; /* Set a max height for scrolling */
+    overflow-y: auto; /* Enable vertical scrolling */
+    margin-top: 30px;
+}
+
+.joke-item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.joke-item:last-child {
+    border-bottom: none; /* Remove border from last item */
+}
+
+@media (max-width: 600px) {
+    .title {
+        font-size: 2rem;
+    }
+
+    .lead, .info-section p, .exploration-section p {
+        font-size: 1rem;
+    }
+}

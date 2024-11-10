@@ -1,0 +1,133 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom right, #e9ecef, #f8f9fa);
+    margin: 0;
+    padding: 0;
+  }
+  
+  .sorting-visualizer {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    background: white;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #343a40;
+    margin-bottom: 20px;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .controls select,
+  .controls button,
+  .user-array-input input,
+  .user-array-input button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    transition: all 0.3s;
+  }
+  
+  .controls select:hover,
+  .controls button:hover,
+  .user-array-input input:hover,
+  .user-array-input button:hover {
+    border-color: #80bdff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .btn-success {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .btn-primary:disabled,
+  .btn-danger:disabled,
+  .btn-success:disabled {
+    background-color: #6c757d;
+  }
+  
+  .user-array-input {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  
+  .array-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 300px;
+    margin-bottom: 20px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    padding: 5px;
+  }
+  
+  .array-bar {
+    width: 30px;
+    margin: 0 2px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: height 0.5s ease, background-color 0.5s ease;
+  }
+  
+  .algorithm-info {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #e2e3e5;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+  }
+  
+  .algorithm-info h3 {
+    margin: 0;
+    color: #495057;
+  }
+  
+  .algorithm-info pre {
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+  }
+  
+  .log-container {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    background-color: #e2e3e5;
+    color: #343a40;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  .log-container p {
+    margin: 0;
+    text-align: center;
+  }
+  
